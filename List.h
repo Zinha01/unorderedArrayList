@@ -7,7 +7,7 @@ class List
 {
 
 private:
-// data members - usually private
+// private list data member declaration
 int size;
 DataType Item [MaxSize];
 
@@ -15,7 +15,7 @@ public:
 List(void); //constructor -- can be overloaded; not a member function
 ~List(void);
 // data members - usually public, some may be private
-	
+// public data member declaration
 bool IsEmpty ();
 bool IsFull  ();
 void  Insert (DataType);
